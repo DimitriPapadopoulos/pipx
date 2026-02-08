@@ -134,7 +134,7 @@ Note that these options can be repeated and used together, e.g.
 ```
 
 If you require full pip functionality, then use the `runpip` command instead;
-however, the installed packages won't be recognized as "injected".
+however, the installed packages won't be recognised as "injected".
 
 ## `pipx list` example
 

@@ -21,7 +21,7 @@ pipx run asciinema
 
 ### black
 
-Uncompromising Python code formatter
+uncompromising Python code formatter
 
 ```
 pipx run black
@@ -29,7 +29,7 @@ pipx run black
 
 ### pybabel
 
-Internationalizing and localizing Python applications
+internationalizing and localizing Python applications
 
 ```
 pipx run --spec=babel pybabel --help
@@ -37,7 +37,7 @@ pipx run --spec=babel pybabel --help
 
 ### chardetect
 
-Detect file encoding
+detect file encoding
 
 ```
 pipx run --spec=chardet chardetect --help
@@ -45,7 +45,7 @@ pipx run --spec=chardet chardetect --help
 
 ### cookiecutter
 
-Creates projects from project templates
+creates projects from project templates
 
 ```
 pipx run cookiecutter
@@ -53,7 +53,7 @@ pipx run cookiecutter
 
 ### create-python-package
 
-Easily create and publish new Python packages
+easily create and publish new Python packages
 
 ```
 pipx run create-python-package
@@ -61,7 +61,7 @@ pipx run create-python-package
 
 ### flake8
 
-Tool for style guide enforcement
+tool for style guide enforcement
 
 ```
 pipx run flake8
@@ -69,7 +69,7 @@ pipx run flake8
 
 ### gdbgui
 
-Browser-based gdb debugger
+browser-based gdb debugger
 
 ```
 pipx run gdbgui
@@ -85,7 +85,7 @@ pipx run hatch
 
 ### hexsticker
 
-Create hexagon stickers automatically
+create hexagon stickers automatically
 
 ```
 pipx run hexsticker
@@ -93,7 +93,7 @@ pipx run hexsticker
 
 ### ipython
 
-Powerful interactive Python shell
+powerful interactive Python shell
 
 ```
 pipx run ipython
@@ -101,7 +101,7 @@ pipx run ipython
 
 ### jupyter
 
-Web-based notebook environment for interactive computing
+web-based notebook environment for interactive computing
 
 ```
 pipx run jupyter
@@ -109,7 +109,7 @@ pipx run jupyter
 
 ### pipenv
 
-Python dependency/environment management
+python dependency/environment management
 
 ```
 pipx run pipenv
@@ -117,7 +117,7 @@ pipx run pipenv
 
 ### poetry
 
-Python dependency/environment/packaging management
+python dependency/environment/packaging management
 
 ```
 pipx run poetry
@@ -125,7 +125,7 @@ pipx run poetry
 
 ### pylint
 
-Source code analyzer
+source code analyzer
 
 ```
 pipx run pylint
@@ -133,7 +133,7 @@ pipx run pylint
 
 ### pyinstaller
 
-Bundles a Python application and all its dependencies into a single package
+bundles a Python application and all its dependencies into a single package
 
 ```
 pipx run pyinstaller
@@ -141,7 +141,7 @@ pipx run pyinstaller
 
 ### pyxtermjs
 
-Fully functional terminal in the browser
+fully functional terminal in the browser
 
 ```
 pipx run pyxtermjs
