@@ -3,11 +3,11 @@
 python 3.9+ is required to install pipx. pipx can run binaries from packages with Python 3.3+. Don't have Python 3.9 or
 later? See [Python 3 Installation & Setup Guide](https://realpython.com/installing-python/).
 
-You also need to have `pip` installed on your machine for `python3`. Installing it varies from system to system. Consult
+You also need to have `pip` installed on your machine for `python3`. The installation process varies from system to system. Consult
 [pip's installation instructions](https://pip.pypa.io/en/stable/installing/). Installing on Linux works best with a
 [Linux Package Manager](https://packaging.python.org/guides/installing-using-linux-tools/#installing-pip-setuptools-wheel-with-linux-package-managers).
 
-pipx works on macOS, linux, and Windows.
+pipx works on macOS, Linux, and Windows.
 
 [![Packaging status](https://repology.org/badge/vertical-allrepos/pipx.svg?columns=3&exclude_unsupported=1)](https://repology.org/metapackage/pipx/versions)
 
@@ -23,7 +23,7 @@ pipx ensurepath
 
 #### Additional (optional) commands
 
-To allow pipx actions in global scope.
+To enable pipx to execute actions in global scope.
 ```
 sudo pipx ensurepath --global
 ```
