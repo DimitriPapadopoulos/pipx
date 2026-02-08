@@ -352,8 +352,7 @@ usage: pipx run [-h] [--no-cache] [--pypackages] [--spec SPEC] [--verbose] [--py
 pipx run: error: ambiguous option: --py could match --pypackages, --python
 ```
 
-To prevent this put double dash `--` before APP. It will make pipx to forward the arguments to the right verbatim to the
-application:
+To prevent this, put double dash `--` before APP. It will make pipx forward the arguments to the application verbatim:
 
 ```
 > pipx run -- pycowsay --py

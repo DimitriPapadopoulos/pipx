@@ -45,7 +45,7 @@ pipx run --spec=chardet chardetect --help
 
 ### cookiecutter
 
-creates projects from project templates
+Creates projects from project templates
 
 ```
 pipx run cookiecutter
@@ -53,7 +53,7 @@ pipx run cookiecutter
 
 ### create-python-package
 
-easily create and publish new Python packages
+Easily create and publish new Python packages
 
 ```
 pipx run create-python-package
@@ -61,7 +61,7 @@ pipx run create-python-package
 
 ### flake8
 
-tool for style guide enforcement
+Tool for style guide enforcement
 
 ```
 pipx run flake8
@@ -69,7 +69,7 @@ pipx run flake8
 
 ### gdbgui
 
-browser-based gdb debugger
+Browser-based gdb debugger
 
 ```
 pipx run gdbgui
@@ -85,7 +85,7 @@ pipx run hatch
 
 ### hexsticker
 
-create hexagon stickers automatically
+Create hexagon stickers automatically
 
 ```
 pipx run hexsticker
@@ -93,7 +93,7 @@ pipx run hexsticker
 
 ### ipython
 
-powerful interactive Python shell
+Powerful interactive Python shell
 
 ```
 pipx run ipython
@@ -101,7 +101,7 @@ pipx run ipython
 
 ### jupyter
 
-web-based notebook environment for interactive computing
+Web-based notebook environment for interactive computing
 
 ```
 pipx run jupyter
@@ -109,7 +109,7 @@ pipx run jupyter
 
 ### pipenv
 
-python dependency/environment management
+Python dependency/environment management
 
 ```
 pipx run pipenv
@@ -117,7 +117,7 @@ pipx run pipenv
 
 ### poetry
 
-python dependency/environment/packaging management
+Python dependency/environment/packaging management
 
 ```
 pipx run poetry
@@ -125,7 +125,7 @@ pipx run poetry
 
 ### pylint
 
-source code analyzer
+Source code analyzer
 
 ```
 pipx run pylint
@@ -133,7 +133,7 @@ pipx run pylint
 
 ### pyinstaller
 
-bundles a Python application and all its dependencies into a single package
+Bundles a Python application and all its dependencies into a single package
 
 ```
 pipx run pyinstaller
@@ -141,7 +141,7 @@ pipx run pyinstaller
 
 ### pyxtermjs
 
-fully functional terminal in the browser
+Fully functional terminal in the browser
 
 ```
 pipx run pyxtermjs

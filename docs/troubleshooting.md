@@ -13,7 +13,7 @@ This is a good fix for the following problems:
 
 pipx has been upgraded a lot over the years. If you are a long-standing pipx user (thanks, by the way!) then you may
 have old pipx-installed packages that have internal data that is different than what pipx currently expects. By
-executing `pipx reinstall-all`, pipx will re-write its internal data and this should fix many of issues you may
+executing `pipx reinstall-all`, pipx will re-write its internal data and this should fix many issues you may
 encounter.
 
 **Note:** If your pipx-installed package was installed using a pipx version before 0.15.0.0 and you want to specify
