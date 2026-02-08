@@ -23,7 +23,7 @@ pipx ensurepath
 
 #### Additional (optional) commands
 
-To enable pipx to execute actions in global scope.
+To allow pipx actions in global scope.
 ```
 sudo pipx ensurepath --global
 ```
