@@ -96,7 +96,7 @@ Reference:
 
 ## macOS issues
 
-If you want to use a Pipx-installed package in a shebang (a common example is the AWS CLI),
+If you want to use a pipx-installed package in a shebang (a common example is the AWS CLI),
 you will likely not be able to, because the binary will be stored under `~/Library/Application Support/pipx/`.
 The space in the path is not supported in a shebang. A simple solution is symlinking
 `~/Library/Application Support/pipx` to `~/Library/ApplicationSupport/pipx`, and using that as the
@@ -135,15 +135,15 @@ To clean up after this experiment:
 rm -rf test_venv
 ```
 
-## Pipx files not in expected locations according to documentation
+## pipx files not in expected locations according to documentation
 
-Pipx versions after 1.2.0 adopt the XDG base directory specification for the location of `PIPX_HOME` and the data,
+pipx versions after 1.2.0 adopt the XDG base directory specification for the location of `PIPX_HOME` and the data,
 cache, and log directories. Version 1.2.0 and earlier use `~/.local/pipx` as the default `PIPX_HOME` and install the
 data, cache, and log directories under it. To maintain compatibility with older versions, pipx will automatically use
 this old `PIPX_HOME` path if it exists. For a map of old and new paths, see
 [Installation](installation.md#installation-options).
 
-In Pipx version 1.5.0, this was reverted for Windows and MacOS. It defaults again to `~/.local/pipx` on MacOS and to
+In pipx version 1.5.0, this was reverted for Windows and macOS. It defaults again to `~/.local/pipx` on macOS and to
 `~\pipx` on Windows.
 
 If you have a `pipx` version later than 1.2.0 and want to migrate from the old path to the new paths, you can move the

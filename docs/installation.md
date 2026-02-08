@@ -152,9 +152,9 @@ overridden with the environment variable `PIPX_MAN_DIR`. If the `--global` optio
 `/usr/local/bin` and `/usr/local/share/man` respectively and can be overridden with `PIPX_GLOBAL_BIN_DIR` and
 `PIPX_GLOBAL_MAN_DIR`.
 
-pipx's default virtual environment location is typically `~/.local/share/pipx` on Linux/Unix, `~/.local/pipx` on MacOS
+pipx's default virtual environment location is typically `~/.local/share/pipx` on Linux/Unix, `~/.local/pipx` on macOS
 and `~\pipx` on Windows. For compatibility reasons, if `~/.local/pipx` on Linux, `%USERPROFILE%\AppData\Local\pipx` or
-`~\.local\pipx` on Windows or `~/Library/Application Support/pipx` on MacOS exists, it will be used as the default location instead.
+`~\.local\pipx` on Windows or `~/Library/Application Support/pipx` on macOS exists, it will be used as the default location instead.
 This can be overridden with the `PIPX_HOME` environment variable. If the `--global` option is used, the default location is always
 `/opt/pipx` and can be overridden with `PIPX_GLOBAL_HOME`.
 
@@ -187,7 +187,7 @@ sudo pipx install --global <PACKAGE>
 > `user_data_dir()`, `user_cache_dir()` and `user_log_dir()` resolve to appropriate platform-specific user data, cache and log directories.
 > See the [platformdirs documentation](https://platformdirs.readthedocs.io/en/latest/api.html#platforms) for details.
 >
-> This was reverted in 1.5.0 for Windows and MacOS. We heavily recommend not using these locations on Windows and MacOS anymore, due to
+> This was reverted in 1.5.0 for Windows and macOS. We heavily recommend not using these locations on Windows and macOS anymore, due to
 > multiple incompatibilities discovered with these locations, documented [here](troubleshooting.md#why-are-spaces-in-the-pipx_home-path-bad).
 
 ### Customising your installation
