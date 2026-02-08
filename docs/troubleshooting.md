@@ -135,9 +135,9 @@ To clean up after this experiment:
 rm -rf test_venv
 ```
 
-## pipx files not in expected locations according to documentation
+## Pipx files not in expected locations according to documentation
 
-pipx versions after 1.2.0 adopt the XDG base directory specification for the location of `PIPX_HOME` and the data,
+Pipx versions after 1.2.0 adopt the XDG base directory specification for the location of `PIPX_HOME` and the data,
 cache, and log directories. Version 1.2.0 and earlier use `~/.local/pipx` as the default `PIPX_HOME` and install the
 data, cache, and log directories under it. To maintain compatibility with older versions, pipx will automatically use
 this old `PIPX_HOME` path if it exists. For a map of old and new paths, see
@@ -165,7 +165,7 @@ The main reason we can't support paths with spaces is that shebangs don't suppor
 
 `pip` does some magic to the shebang for scripts defined as a `script`, that resolves this issue. Unfortunately, many libraries define their scripts as `console_scripts`, where `pip` does not perform this logic. Therefore, these scripts cannot be run if installed with `pipx` in a path with spaces because the path to the `venv` (and therefore the interpreter) will contain spaces.
 
-If you want to use a script installed via pipx in a shebang itself (a common use case, for example, for the AWS CLI), you run into a similar problem, as the path to the installed script will contain a space.
+If you want to use a script installed via pipx in a shebang itself (common for example for the AWS CLI), you run into a similar problem, as the path to the installed script will contain a space.
 
 ### How to fix
 
