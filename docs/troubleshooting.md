@@ -154,7 +154,7 @@ Please refer to [Installation](installation.md#moving-your-pipx-installation) on
 
 ## Warning: Found a space in the pipx home path
 
-In pipx version 1.5, we introduced the warning you're seeing, as multiple incompatibilites with spaces in the pipx home path were discovered. You may see this for the following reasons:
+In pipx version 1.5, we introduced the warning you're seeing, as multiple incompatibilities with spaces in the pipx home path were discovered. You may see this for the following reasons:
 
 1. From pipx version 1.3 to 1.5, we were by default using a path with a space on it on MacOS. This unfortunately means, that all users that installed pipx in this time frame and were using the default behavior are seeing this warning now.
 2. You set your `PIPX_HOME` to a path with spaces in it explicitly or because your `$HOME` path contains a space.

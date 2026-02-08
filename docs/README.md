@@ -249,7 +249,7 @@ pipx install "git+https://github.com/psf/black.git#egg=black[jupyter]"
 
 ### Inject a package
 
-If an application installed by pipx requires additional packages, you can add them with pipx inject. For example, if you have ```ipython``` installed and want to add the ```matplotlib``` package to it, you would use:
+If an application installed by pipx requires additional packages, you can add them with pipx inject. For example, if you have `ipython` installed and want to add the `matplotlib` package to it, you would use:
 
 ```
 pipx inject ipython matplotlib

@@ -21,7 +21,7 @@ pipx run asciinema
 
 ### black
 
-uncompromising Python code formatter
+Uncompromising Python code formatter
 
 ```
 pipx run black
@@ -29,7 +29,7 @@ pipx run black
 
 ### pybabel
 
-internationalizing and localizing Python applications
+Internationalizing and localizing Python applications
 
 ```
 pipx run --spec=babel pybabel --help
@@ -37,7 +37,7 @@ pipx run --spec=babel pybabel --help
 
 ### chardetect
 
-detect file encoding
+Detect file encoding
 
 ```
 pipx run --spec=chardet chardetect --help
